@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ae85a08.chunk.css",
+    "main.js": "/static/js/main.2cd27bad.chunk.js",
+    "main.js.map": "/static/js/main.2cd27bad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.0a57a6d4.chunk.js": "/static/js/2.0a57a6d4.chunk.js",
+    "static/js/2.0a57a6d4.chunk.js.map": "/static/js/2.0a57a6d4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f28967e0d2057815c707e96bea989298.js": "/precache-manifest.f28967e0d2057815c707e96bea989298.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6ae85a08.chunk.css.map": "/static/css/main.6ae85a08.chunk.css.map",
+    "static/js/2.0a57a6d4.chunk.js.LICENSE.txt": "/static/js/2.0a57a6d4.chunk.js.LICENSE.txt",
+    "static/media/icon-calculator.svg": "/static/media/icon-calculator.8e4a5574.svg",
+    "static/media/icon-karma.svg": "/static/media/icon-karma.ae2dc13d.svg",
+    "static/media/icon-supervisor.svg": "/static/media/icon-supervisor.8f7824b3.svg",
+    "static/media/icon-team-builder.svg": "/static/media/icon-team-builder.8a1a6a17.svg",
+    "static/media/style.scss": "/static/media/poppins-v9-latin-regular.a2ed588b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/2.0a57a6d4.chunk.js",
+    "static/css/main.6ae85a08.chunk.css",
+    "static/js/main.2cd27bad.chunk.js"
+  ]
+}
