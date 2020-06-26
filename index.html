@@ -1,45 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <title>Frontend Mentor | Four card feature section</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mb-5 p-1"></div>
+    <div class="mb-4 p-1"></div>
+    <header class="text-center mb-5">
+      <div class="container">
+        <h1 class="font-weight-light heading-1">
+          Reliable, efficient delivery
+        </h1>
+        <h2 class="font-weight-bold heading-1 mb-4">Powered by Technology</h2>
+        <p class="heading-small">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
+    </header>
+    <div class="mb-3 p-1"></div>
+    <div class="container">
+      <div class="row align-items-lg-center">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100 shadow --bd-top border-success">
+            <div class="card-body">
+              <h5 class="h5 font-weight-bold card-title">Supervisor</h5>
+              <p class="card-text text-sm">
+                Monitor activity to identify project roadblocks.
+              </p>
+              <div class="text-right">
+                <img
+                  src="src/images/icon-supervisor.svg"
+                  alt=""
+                  class="card-img-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 order-sm-3 order-lg-2">
+          <div class="row align-items-lg-center">
+            <div class="col-sm-6 col-lg-12 mb-4">
+              <div class="card h-100 shadow --bd-top border-danger">
+                <div class="card-body">
+                  <h5 class="h5 font-weight-bold card-title">Team builder</h5>
+                  <p class="card-text">
+                    Scans our talent network to create the optimal team for your
+                    project.
+                  </p>
+                  <div class="text-right">
+                    <img
+                      src="src/images/icon-team-builder.svg"
+                      alt=""
+                      class="card-img-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100 d-none d-lg-block"></div>
+            <div class="col-sm-6 col-lg-12 mb-4">
+              <div class="card h-100 shadow --bd-top border-warning">
+                <div class="card-body">
+                  <h5 class="h5 font-weight-bold card-title">Karma</h5>
+                  <p class="card-text">
+                    Regularly evaluates our talent to ensure quality.
+                  </p>
+                  <div class="text-right">
+                    <img
+                      src="src/images/icon-karma.svg"
+                      alt=""
+                      class="card-img-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 order-sm-2 order-lg-3 mb-4">
+          <div class="card h-100 shadow --bd-top border-primary">
+            <div class="card-body">
+              <h5 class="h5 font-weight-bold card-title">Calculator</h5>
+              <p class="card-text">
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+              <div class="text-right">
+                <img
+                  src="src/images/icon-calculator.svg"
+                  alt=""
+                  class="card-img-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
